@@ -96,7 +96,7 @@ AI：明白了。这是 v1 计划：
 
 **技术栈**：单文件 HTML，localStorage，零依赖
 
-[在线体验](./examples/habit-streak/index.html) | [源码](./examples/habit-streak/index.html)
+[在线体验](https://anlan-bot.github.io/ai-cofounder/examples/habit-streak/) | [源码](./examples/habit-streak/index.html)
 
 ### 案例 2：待补充
 

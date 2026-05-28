@@ -8,7 +8,7 @@
 <p align="center">
   <a href="./README-CN.md">中文版</a> ·
   <a href="./prompts/cofounder.md">Get the Prompt</a> ·
-  <a href="./examples/habit-streak/index.html">Live Demo</a>
+  <a href="https://anlan-bot.github.io/ai-cofounder/examples/habit-streak/">Live Demo</a>
 </p>
 
 <p align="center">
@@ -116,7 +116,7 @@ A minimal habit tracker built with the AI Co-Founder workflow — from idea to p
 
 **Features:** Confetti celebrations at milestones · Dark mode · Export JSON/CSV · Mobile-first responsive · Data stays on device
 
-[**Live Demo**](./examples/habit-streak/index.html) · [Source](./examples/habit-streak/index.html)
+[**Live Demo**](https://anlan-bot.github.io/ai-cofounder/examples/habit-streak/) · [Source](./examples/habit-streak/index.html)
 
 ### More cases coming
 

@@ -8,7 +8,7 @@
 <p align="center">
   <a href="./README-CN.md">中文版</a> ·
   <a href="./prompts/cofounder.md">Get the Prompt</a> ·
-  <a href="https://anlan-bot.github.io/ai-cofounder/examples/habit-streak/">Live Demo</a>
+  <a href="https://anlan-dev.github.io/vibe-to-ship/examples/habit-streak/">Live Demo</a>
 </p>
 
 <p align="center">
@@ -116,7 +116,7 @@ A minimal habit tracker built with the AI Co-Founder workflow — from idea to p
 
 **Features:** Confetti celebrations at milestones · Dark mode · Export JSON/CSV · Mobile-first responsive · Data stays on device
 
-[**Live Demo**](https://anlan-bot.github.io/ai-cofounder/examples/habit-streak/) · [Source](./examples/habit-streak/index.html)
+[**Live Demo**](https://anlan-dev.github.io/vibe-to-ship/examples/habit-streak/) · [Source](./examples/habit-streak/index.html)
 
 ### More cases coming
 
@@ -125,7 +125,7 @@ Want to contribute your case? See [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## Project Structure
 
 ```
-ai-cofounder/
+vibe-to-ship/
 ├── prompts/
 │   └── cofounder.md          # The prompt — copy & paste into any AI
 ├── skills/
@@ -176,11 +176,11 @@ This project is licensed under the MIT License — see [LICENSE](./LICENSE) for 
 
 <p align="center">
   If this project helped you build something, consider giving it a ⭐<br/>
-  Built something with this prompt? <a href="https://github.com/anlan-bot/ai-cofounder/issues">Open an issue</a> and share it!
+  Built something with this prompt? <a href="https://github.com/anlan-dev/vibe-to-ship/issues">Open an issue</a> and share it!
 </p>
 
 <p align="center">
   <sub>
-    Suggested GitHub Topics: <code>ai-cofounder</code> · <code>prompt-engineering</code> · <code>vibe-coding</code> · <code>ai-workflow</code> · <code>system-prompt</code> · <code>product-management</code>
+    Suggested GitHub Topics: <code>vibe-to-ship</code> · <code>prompt-engineering</code> · <code>vibe-coding</code> · <code>ai-workflow</code> · <code>system-prompt</code> · <code>product-management</code>
   </sub>
 </p>

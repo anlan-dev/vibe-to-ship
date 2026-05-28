@@ -69,15 +69,33 @@ cp -r commands/* ~/.claude/commands/
 
 ## 里面有什么
 
-Vibe to Ship 现在是一个完整的系统 — 不只是一个 prompt，而是一个模块化框架，包含规则、智能体和命令。
+Vibe to Ship 现在是一个完整的系统 — 不只是一个 prompt，而是一个模块化框架，包含规则、智能体、命令和技能。
 
 ```
 vibe-to-ship/
 ├── prompts/
 │   └── cofounder.md              # 核心 prompt — 复制粘贴到任意 AI
 ├── skills/
-│   └── tech-cofounder/
-│       └── SKILL.md              # Trae/Claude Code skill（自动激活）
+│   ├── tech-cofounder/
+│   │   └── SKILL.md              # Trae/Claude Code skill（自动激活）
+│   ├── brainstorming/
+│   │   └── SKILL.md              # 通过苏格拉底式对话精炼设计（硬门禁）
+│   ├── writing-plans/
+│   │   └── SKILL.md              # 创建详细实施计划
+│   ├── subagent-driven-development/
+│   │   └── SKILL.md              # 用独立子智能体执行计划
+│   ├── test-driven-development/
+│   │   └── SKILL.md              # 红-绿-重构循环
+│   ├── verification-before-completion/
+│   │   └── SKILL.md              # 确保工作真正完成
+│   ├── requesting-code-review/
+│   │   └── SKILL.md              # 结构化审查流程
+│   ├── receiving-code-review/
+│   │   └── SKILL.md              # 建设性地回应反馈
+│   ├── model-selection/
+│   │   └── SKILL.md              # 为每个任务选择合适的模型
+│   └── context-window-management/
+│       └── SKILL.md              # 优化上下文窗口使用
 ├── rules/                        # 始终遵循的规则
 │   ├── security.md               # 安全检查清单
 │   ├── coding-style.md           # 代码风格规范
@@ -138,6 +156,22 @@ vibe-to-ship/
 | `/test` | 运行测试检查覆盖率 |
 | `/polish` | 视觉打磨和边界情况处理 |
 | `/ship` | 部署前检查和部署 |
+
+### 技能
+
+增强工作流各阶段的模块化技能：
+
+| 类别 | 技能 | 用途 |
+|------|------|------|
+| **设计** | 头脑风暴 | 通过苏格拉底式对话精炼设计（硬门禁） |
+| **设计** | 编写计划 | 创建详细实施计划 |
+| **设计** | 子智能体开发 | 用独立子智能体执行计划 |
+| **开发** | 测试驱动开发 | 红-绿-重构循环 |
+| **开发** | 完成前验证 | 确保工作真正完成 |
+| **审查** | 请求代码审查 | 结构化审查流程 |
+| **审查** | 接收代码审查 | 建设性地回应反馈 |
+| **优化** | 模型选择 | 为每个任务选择合适的模型 |
+| **优化** | 上下文窗口管理 | 优化上下文窗口使用 |
 
 ## 使用方法
 

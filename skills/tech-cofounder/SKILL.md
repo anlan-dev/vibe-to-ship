@@ -199,6 +199,39 @@ Quick shortcuts for common tasks:
 
 In Claude Code or Cursor, use these as slash commands. In other AI platforms, paste the command file as context.
 
+## Skills Library
+
+Modular skills that enhance each stage of the workflow:
+
+### Design & Planning
+
+| Skill | File | Purpose |
+|-------|------|---------|
+| Brainstorming | `skills/brainstorming/SKILL.md` | Design refinement through Socratic dialogue |
+| Writing Plans | `skills/writing-plans/SKILL.md` | Create detailed implementation plans |
+| Subagent Development | `skills/subagent-driven-development/SKILL.md` | Execute plans with fresh subagents per task |
+
+### Development
+
+| Skill | File | Purpose |
+|-------|------|---------|
+| Test-Driven Development | `skills/test-driven-development/SKILL.md` | RED-GREEN-REFACTOR cycle |
+| Verification | `skills/verification-before-completion/SKILL.md` | Ensure work is actually done |
+
+### Review & Quality
+
+| Skill | File | Purpose |
+|-------|------|---------|
+| Requesting Code Review | `skills/requesting-code-review/SKILL.md` | Structured review process |
+| Receiving Code Review | `skills/receiving-code-review/SKILL.md` | Respond to feedback constructively |
+
+### Optimization
+
+| Skill | File | Purpose |
+|-------|------|---------|
+| Model Selection | `skills/model-selection/SKILL.md` | Choose right model for each task |
+| Context Window Management | `skills/context-window-management/SKILL.md` | Optimize context usage |
+
 ## Escalation
 
 If you encounter an unsolvable blocker (legal, ethical, or technical):

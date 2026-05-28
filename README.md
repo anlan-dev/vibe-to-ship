@@ -97,15 +97,33 @@ cp -r commands/* ~/.claude/commands/
 
 ## What's Inside
 
-Vibe to Ship is now a complete system — not just a prompt, but a modular framework with rules, agents, and commands.
+Vibe to Ship is now a complete system — not just a prompt, but a modular framework with rules, agents, commands, and skills.
 
 ```
 vibe-to-ship/
 ├── prompts/
 │   └── cofounder.md              # The prompt — copy & paste into any AI
 ├── skills/
-│   └── tech-cofounder/
-│       └── SKILL.md              # Trae/Claude Code skill (auto-activates)
+│   ├── tech-cofounder/
+│   │   └── SKILL.md              # Trae/Claude Code skill (auto-activates)
+│   ├── brainstorming/
+│   │   └── SKILL.md              # Design refinement with HARD-GATE
+│   ├── writing-plans/
+│   │   └── SKILL.md              # Detailed implementation plans
+│   ├── subagent-driven-development/
+│   │   └── SKILL.md              # Execute plans with fresh subagents
+│   ├── test-driven-development/
+│   │   └── SKILL.md              # RED-GREEN-REFACTOR cycle
+│   ├── verification-before-completion/
+│   │   └── SKILL.md              # Ensure work is actually done
+│   ├── requesting-code-review/
+│   │   └── SKILL.md              # Structured review process
+│   ├── receiving-code-review/
+│   │   └── SKILL.md              # Respond to feedback constructively
+│   ├── model-selection/
+│   │   └── SKILL.md              # Choose right model for each task
+│   └── context-window-management/
+│       └── SKILL.md              # Optimize context usage
 ├── rules/                        # Always-follow guidelines
 │   ├── security.md               # Security checklist (no secrets, input validation)
 │   ├── coding-style.md           # Immutability, file org, naming, error handling
@@ -166,6 +184,22 @@ Slash commands for quick access to common workflows:
 | `/test` | Run tests and check coverage |
 | `/polish` | Visual polish and edge case handling |
 | `/ship` | Pre-deployment checks and deployment |
+
+### Skills
+
+Modular skills that enhance each stage of the workflow:
+
+| Category | Skill | Purpose |
+|----------|-------|---------|
+| **Design** | Brainstorming | Design refinement through Socratic dialogue (HARD-GATE) |
+| **Design** | Writing Plans | Create detailed implementation plans |
+| **Design** | Subagent Development | Execute plans with fresh subagents per task |
+| **Development** | Test-Driven Development | RED-GREEN-REFACTOR cycle |
+| **Development** | Verification | Ensure work is actually done with evidence |
+| **Review** | Requesting Code Review | Structured review process |
+| **Review** | Receiving Code Review | Respond to feedback constructively |
+| **Optimization** | Model Selection | Choose right model for each task |
+| **Optimization** | Context Window Management | Optimize context usage |
 
 ## Example conversation
 

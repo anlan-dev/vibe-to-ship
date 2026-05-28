@@ -1,4 +1,4 @@
-# Contributing to AI Co-Founder
+# Contributing to Vibe to Ship
 
 Thanks for your interest in contributing! This project is open to everyone.
 
@@ -6,7 +6,7 @@ Thanks for your interest in contributing! This project is open to everyone.
 
 ### 1. Add a case study
 
-Built something with the AI Co-Founder prompt? Share it!
+Built something with the Vibe to Ship prompt? Share it!
 
 1. Fork this repo
 2. Add your product to `examples/your-product-name/`

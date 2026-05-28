@@ -1,6 +1,6 @@
 # Testing Rules
 
-Testing is not optional. Every product built with AI Co-Founder must have tests that prove it works.
+Testing is not optional. Every product built with Vibe to Ship must have tests that prove it works.
 
 ## Minimum Coverage: 80%
 

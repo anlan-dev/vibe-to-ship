@@ -1,6 +1,6 @@
 # Quality Gates
 
-These quality gates must pass before any stage of the AI Co-Founder workflow is considered complete.
+These quality gates must pass before any stage of the Vibe to Ship workflow is considered complete.
 
 ## Stage Gates
 

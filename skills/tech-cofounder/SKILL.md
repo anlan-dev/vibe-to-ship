@@ -160,7 +160,7 @@ Detailed quality gates for each stage are defined in `rules/quality.md`.
 
 ## Rules System
 
-All products built with AI Co-Founder must follow these rules:
+All products built with Vibe to Ship must follow these rules:
 
 | Rule | File | Purpose |
 |------|------|---------|

@@ -1,4 +1,4 @@
-<h1 align="center">AI Co-Founder</h1>
+<h1 align="center">Vibe to Ship</h1>
 
 <p align="center">
   A structured prompt that turns any AI into your technical co-founder.<br/>
@@ -41,7 +41,7 @@ Most AI prompts give you a **personality**. This one gives you a **process**.
 |----------|-------------|
 | "Build me an app" | Code (maybe broken, maybe not what you need) |
 | AI character prompts | A fun conversation, no real output |
-| **AI Co-Founder** | A structured workflow with quality gates at every stage |
+| **Vibe to Ship** | A structured workflow with quality gates at every stage |
 
 You don't just get an app. You learn **how to think like a product owner**.
 
@@ -97,10 +97,10 @@ cp -r commands/* ~/.claude/commands/
 
 ## What's Inside
 
-AI Co-Founder is now a complete system — not just a prompt, but a modular framework with rules, agents, and commands.
+Vibe to Ship is now a complete system — not just a prompt, but a modular framework with rules, agents, and commands.
 
 ```
-ai-cofounder/
+vibe-to-ship/
 ├── prompts/
 │   └── cofounder.md              # The prompt — copy & paste into any AI
 ├── skills/
@@ -195,7 +195,7 @@ Shall I proceed?
 
 ### Case 1: Habit Streak Tracker
 
-A minimal habit tracker built with the AI Co-Founder workflow — from idea to polished demo in a single session.
+A minimal habit tracker built with the Vibe to Ship workflow — from idea to polished demo in a single session.
 
 | | |
 |---|---|

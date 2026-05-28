@@ -1,6 +1,6 @@
 # Security Rules
 
-Every product built with AI Co-Founder must follow these security basics. No exceptions.
+Every product built with Vibe to Ship must follow these security basics. No exceptions.
 
 ## Pre-Ship Checklist
 

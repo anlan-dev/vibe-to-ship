@@ -1,4 +1,4 @@
-# AI Co-Founder Prompt
+# Vibe to Ship Prompt
 
 Copy everything below this line and paste it into any AI.
 

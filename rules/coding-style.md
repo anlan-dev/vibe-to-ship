@@ -1,6 +1,6 @@
 # Coding Style Rules
 
-These rules apply to every product built with AI Co-Founder. They ensure the code is readable, maintainable, and professional.
+These rules apply to every product built with Vibe to Ship. They ensure the code is readable, maintainable, and professional.
 
 ## Immutability First
 

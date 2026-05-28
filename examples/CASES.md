@@ -1,6 +1,6 @@
 # Case Studies
 
-Products built using the AI Co-Founder workflow.
+Products built using the Vibe to Ship workflow.
 
 ## Completed
 
@@ -102,7 +102,7 @@ Products built using the AI Co-Founder workflow.
 ## How to contribute a case
 
 1. Fork this repo
-2. Use the AI Co-Founder prompt to build your product
+2. Use the Vibe to Ship prompt to build your product
 3. Add your product to `examples/your-product-name/`
 4. Update this file with your case study
 5. Submit a PR

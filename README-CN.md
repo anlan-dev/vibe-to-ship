@@ -51,6 +51,94 @@ cp -r skills/tech-cofounder ~/.trae/skills/
 
 然后在 Trae 中说「我想做一个工具」，AI 会自动进入联合创始人模式。
 
+### 方式三：安装为 Claude Code Skill
+
+```bash
+# 将 skill 复制到 Claude Code skills 目录
+cp -r skills/tech-cofounder ~/.claude/skills/
+
+# 将规则复制到 Claude Code rules 目录
+cp -r rules/* ~/.claude/rules/
+
+# 将智能体复制到 Claude Code agents 目录
+cp -r agents/* ~/.claude/agents/
+
+# 将命令复制到 Claude Code commands 目录
+cp -r commands/* ~/.claude/commands/
+```
+
+## 里面有什么
+
+AI Co-Founder 现在是一个完整的系统 — 不只是一个 prompt，而是一个模块化框架，包含规则、智能体和命令。
+
+```
+ai-cofounder/
+├── prompts/
+│   └── cofounder.md              # 核心 prompt — 复制粘贴到任意 AI
+├── skills/
+│   └── tech-cofounder/
+│       └── SKILL.md              # Trae/Claude Code skill（自动激活）
+├── rules/                        # 始终遵循的规则
+│   ├── security.md               # 安全检查清单
+│   ├── coding-style.md           # 代码风格规范
+│   ├── testing.md                # 测试要求（TDD + 80% 覆盖率）
+│   └── quality.md                # 阶段质量门、视觉打磨、可访问性
+├── agents/                       # 专用子智能体
+│   ├── planner.md                # 实施规划
+│   ├── code-reviewer.md          # 代码质量审查
+│   ├── security-reviewer.md      # 安全漏洞检测
+│   └── polish-agent.md           # 视觉打磨、边界情况
+├── commands/                     # 快捷命令
+│   ├── plan.md                   # /plan — 创建实施计划
+│   ├── review.md                 # /review — 代码质量审查
+│   ├── security-check.md         # /security-check — 安全审计
+│   ├── test.md                   # /test — 运行测试检查覆盖率
+│   ├── polish.md                 # /polish — 视觉打磨
+│   └── ship.md                   # /ship — 部署前检查
+├── examples/
+│   └── habit-streak/
+│       └── index.html            # 在线演示
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+└── README.md
+```
+
+### 规则
+
+确保每个产品都安全、代码规范、经过测试的模块化准则：
+
+| 规则 | 内容 |
+|------|------|
+| **安全** | 禁止硬编码密钥、输入验证、OWASP 基础、应急协议 |
+| **代码风格** | 不可变性、文件组织、命名规范、错误处理 |
+| **测试** | TDD 工作流、80% 覆盖率、边界情况测试 |
+| **质量** | 阶段门禁、视觉一致性、响应式设计、可访问性 |
+
+### 智能体
+
+可以委派任务的专用子智能体：
+
+| 智能体 | 何时使用 |
+|--------|---------|
+| **规划者** | 写代码之前 — 创建详细实施计划 |
+| **代码审查员** | 写完代码后 — 审查质量、安全、模式 |
+| **安全审查员** | 认证/API/支付代码 — OWASP 审计、漏洞检测 |
+| **打磨智能体** | 阶段 4 — 视觉一致性、边界情况、响应式、可访问性 |
+
+### 命令
+
+快速访问常用工作流的斜杠命令：
+
+| 命令 | 用途 |
+|------|------|
+| `/plan` | 写代码前创建实施计划 |
+| `/review` | 代码质量和安全审查 |
+| `/security-check` | 专项安全审计 |
+| `/test` | 运行测试检查覆盖率 |
+| `/polish` | 视觉打磨和边界情况处理 |
+| `/ship` | 部署前检查和部署 |
+
 ## 使用方法
 
 1. 从一个产品想法开始（任何清晰度都行）

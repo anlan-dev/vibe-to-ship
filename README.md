@@ -25,6 +25,7 @@
 - [What is this?](#what-is-this)
 - [The 5-Stage Workflow](#the-5-stage-workflow)
 - [Quick Start](#quick-start)
+- [What's Inside](#whats-inside)
 - [Example Conversation](#example-conversation)
 - [Cases](#cases)
 - [Who is this for?](#who-is-this-for)
@@ -78,6 +79,94 @@ cp -r skills/tech-cofounder ~/.trae/skills/
 
 Then in Trae, just say "I want to build a tool" and the AI will automatically enter co-founder mode.
 
+### Option 3: Install as Claude Code Skill
+
+```bash
+# Copy the skill to your Claude Code skills directory
+cp -r skills/tech-cofounder ~/.claude/skills/
+
+# Copy rules to your Claude Code rules directory
+cp -r rules/* ~/.claude/rules/
+
+# Copy agents to your Claude Code agents directory
+cp -r agents/* ~/.claude/agents/
+
+# Copy commands to your Claude Code commands directory
+cp -r commands/* ~/.claude/commands/
+```
+
+## What's Inside
+
+AI Co-Founder is now a complete system — not just a prompt, but a modular framework with rules, agents, and commands.
+
+```
+ai-cofounder/
+├── prompts/
+│   └── cofounder.md              # The prompt — copy & paste into any AI
+├── skills/
+│   └── tech-cofounder/
+│       └── SKILL.md              # Trae/Claude Code skill (auto-activates)
+├── rules/                        # Always-follow guidelines
+│   ├── security.md               # Security checklist (no secrets, input validation)
+│   ├── coding-style.md           # Immutability, file org, naming, error handling
+│   ├── testing.md                # TDD workflow, 80% coverage, edge cases
+│   └── quality.md                # Stage gates, visual polish, accessibility
+├── agents/                       # Specialized sub-agents for delegation
+│   ├── planner.md                # Implementation planning before coding
+│   ├── code-reviewer.md          # Quality, security, and maintainability review
+│   ├── security-reviewer.md      # OWASP Top 10 and vulnerability detection
+│   └── polish-agent.md           # Visual polish, edge cases, responsive design
+├── commands/                     # Quick shortcuts for common tasks
+│   ├── plan.md                   # /plan — Create implementation plan
+│   ├── review.md                 # /review — Code quality review
+│   ├── security-check.md         # /security-check — Security audit
+│   ├── test.md                   # /test — Run tests and check coverage
+│   ├── polish.md                 # /polish — Visual polish and edge cases
+│   └── ship.md                   # /ship — Pre-deployment checks
+├── examples/
+│   └── habit-streak/
+│       └── index.html            # Live demo — open in browser
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+└── README.md
+```
+
+### Rules
+
+Modular guidelines that ensure every product is secure, well-coded, and tested:
+
+| Rule | What it covers |
+|------|----------------|
+| **Security** | No hardcoded secrets, input validation, OWASP basics, emergency protocol |
+| **Coding Style** | Immutability, small files, naming conventions, error handling |
+| **Testing** | TDD workflow, 80% coverage, edge case testing, test structure |
+| **Quality** | Stage gates, visual consistency, responsive design, accessibility |
+
+### Agents
+
+Specialized sub-agents you can delegate tasks to:
+
+| Agent | When to use |
+|-------|-------------|
+| **Planner** | Before writing code — creates detailed implementation plans |
+| **Code Reviewer** | After writing code — reviews quality, security, patterns |
+| **Security Reviewer** | Auth/API/payment code — OWASP audit, vulnerability detection |
+| **Polish Agent** | Stage 4 — visual consistency, edge cases, responsive, a11y |
+
+### Commands
+
+Slash commands for quick access to common workflows:
+
+| Command | Purpose |
+|---------|---------|
+| `/plan` | Create implementation plan before coding |
+| `/review` | Code quality and security review |
+| `/security-check` | Focused security audit |
+| `/test` | Run tests and check coverage |
+| `/polish` | Visual polish and edge case handling |
+| `/ship` | Pre-deployment checks and deployment |
+
 ## Example conversation
 
 ```
@@ -121,24 +210,6 @@ A minimal habit tracker built with the AI Co-Founder workflow — from idea to p
 ### More cases coming
 
 Want to contribute your case? See [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-## Project Structure
-
-```
-vibe-to-ship/
-├── prompts/
-│   └── cofounder.md          # The prompt — copy & paste into any AI
-├── skills/
-│   └── tech-cofounder/
-│       └── SKILL.md          # Trae Skill version (auto-activates)
-├── examples/
-│   └── habit-streak/
-│       └── index.html        # Live demo — open in browser
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── LICENSE
-└── README.md
-```
 
 ## Who is this for?
 

@@ -156,6 +156,49 @@ Before declaring any stage complete, verify:
 2. **User-review**: Can the user complete the core task without instructions?
 3. **Owner-review**: Does the user feel proud showing this to a friend or investor?
 
+Detailed quality gates for each stage are defined in `rules/quality.md`.
+
+## Rules System
+
+All products built with AI Co-Founder must follow these rules:
+
+| Rule | File | Purpose |
+|------|------|---------|
+| Security | `rules/security.md` | No hardcoded secrets, input validation, OWASP basics |
+| Coding Style | `rules/coding-style.md` | Immutability, file organization, naming, error handling |
+| Testing | `rules/testing.md` | 80% coverage, TDD workflow, edge case testing |
+| Quality | `rules/quality.md` | Stage gates, visual polish, responsive, accessibility |
+
+Read the relevant rule file at the start of each stage. Apply the rules throughout development.
+
+## Sub-Agents
+
+Delegate specialized tasks to these sub-agents:
+
+| Agent | File | When to use |
+|-------|------|-------------|
+| Planner | `agents/planner.md` | Before writing code (Stage 2), complex features |
+| Code Reviewer | `agents/code-reviewer.md` | After writing code, before shipping |
+| Security Reviewer | `agents/security-reviewer.md` | Auth/API/payment code, before deployment |
+| Polish Agent | `agents/polish-agent.md` | Stage 4, visual consistency, edge cases |
+
+To delegate: "Act as the [Agent Name] and [task]."
+
+## Commands
+
+Quick shortcuts for common tasks:
+
+| Command | File | Purpose |
+|---------|------|---------|
+| `/plan` | `commands/plan.md` | Create implementation plan before coding |
+| `/review` | `commands/review.md` | Code quality and security review |
+| `/security-check` | `commands/security-check.md` | Focused security audit |
+| `/test` | `commands/test.md` | Run tests and check coverage |
+| `/polish` | `commands/polish.md` | Visual polish and edge case handling |
+| `/ship` | `commands/ship.md` | Pre-deployment checks and deployment |
+
+In Claude Code or Cursor, use these as slash commands. In other AI platforms, paste the command file as context.
+
 ## Escalation
 
 If you encounter an unsolvable blocker (legal, ethical, or technical):

@@ -1,5 +1,9 @@
 # /review Command
 
+> **调度 Agent**：[Code Reviewer](../agents/code-reviewer.md)
+> **适用阶段**：阶段 4（每个任务提交前）或任何代码修改后
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 **Purpose**: Review code for quality, security, and maintainability.
 
 **When to use**: After writing or modifying code, before shipping.

@@ -1,5 +1,8 @@
 # Security Reviewer Agent
 
+> **调度方式**：通过 `/security-check` 命令 或 阶段 5 部署前自动调用。
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 You are a security specialist for the Vibe to Ship workflow. Your job is to find and fix vulnerabilities before they reach users.
 
 ## Core Responsibilities

@@ -1,5 +1,9 @@
 # /test Command
 
+> **性质**：工具命令（不调度 Agent，直接执行测试套件）
+> **适用阶段**：阶段 4（每个任务完成后）
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 **Purpose**: Run tests and verify coverage.
 
 **When to use**: After implementing features, before shipping, during development.

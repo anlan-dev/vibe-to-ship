@@ -1,5 +1,9 @@
 # /polish Command
 
+> **调度 Agent**：[Polish Agent](../agents/polish-agent.md)
+> **适用阶段**：阶段 4 末尾（所有功能完成后）
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 **Purpose**: Apply visual polish, handle edge cases, and make the product feel professional.
 
 **When to use**: After core features are working (Stage 4 of the workflow).

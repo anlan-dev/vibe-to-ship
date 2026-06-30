@@ -1,5 +1,9 @@
 # /plan Command
 
+> **调度 Agent**：[Planner](../agents/planner.md)
+> **适用阶段**：阶段 4 开始前（进入开发前）
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 **Purpose**: Create a detailed implementation plan before writing any code.
 
 **When to use**: Before starting any new feature, major change, or complex task.

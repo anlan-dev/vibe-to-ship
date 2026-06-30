@@ -1,5 +1,9 @@
 # /security-check Command
 
+> **调度 Agent**：[Security Reviewer](../agents/security-reviewer.md)
+> **适用阶段**：阶段 5 部署前（必跑）或任何时候加 auth/API/支付功能后
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
 **Purpose**: Run a focused security audit on the codebase.
 
 **When to use**: Before shipping, after adding auth/API/payment features, or when handling user data.

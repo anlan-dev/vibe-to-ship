@@ -1,6 +1,10 @@
 # /ship Command
 
-**Purpose**: Final checks and deployment preparation.
+> **调度 Agent**：依次调用 [Code Reviewer](../agents/code-reviewer.md) → [Polish Agent](../agents/polish-agent.md) → [Security Reviewer](../agents/security-reviewer.md)
+> **适用阶段**：阶段 5（部署交付）
+> **详见**：[Agent 调度架构](../docs/AGENT-ARCHITECTURE.md)
+
+**Purpose**: Final checks and deployment preparation. Runs the full quality gate chain before allowing deployment.
 
 **When to use**: After polish is complete and you're ready to deploy (Stage 5).
 

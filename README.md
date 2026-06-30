@@ -8,6 +8,7 @@
 <p align="center">
   <a href="./README-CN.md">中文版</a> ·
   <a href="./prompts/cofounder.md">Get the Prompt</a> ·
+  <a href="./docs/BLOCKING-POINTS.md">Stuck? Help</a> ·
   <a href="https://anlan-dev.github.io/vibe-to-ship/examples/habit-streak/">Live Demo</a>
 </p>
 

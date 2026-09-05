@@ -119,3 +119,5 @@ Each phase should be independently mergeable. Avoid plans that require all phase
 - Phases that can't be shipped independently
 
 **Remember**: A great plan is specific, actionable, and considers both the happy path and edge cases. The best plan enables confident, incremental implementation.
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

@@ -128,3 +128,5 @@ Products built using the Vibe to Ship workflow.
 3. Add your product to `examples/your-product-name/`
 4. Update this file with your case study
 5. Submit a PR
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

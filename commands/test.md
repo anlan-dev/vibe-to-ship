@@ -92,3 +92,5 @@ The AI will:
 2. Wait for you to see it fail
 3. Implement the code to make it pass
 4. Refactor and verify
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

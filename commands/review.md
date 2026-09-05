@@ -69,3 +69,5 @@ Verdict: WARNING — 1 HIGH issue should be resolved before shipping.
 - **APPROVE**: No CRITICAL or HIGH issues
 - **WARNING**: Only HIGH issues (ship with caution)
 - **BLOCK**: CRITICAL issues — must fix before shipping
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

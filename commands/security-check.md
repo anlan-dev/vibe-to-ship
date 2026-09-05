@@ -72,3 +72,5 @@ If CRITICAL issues are found:
 3. Rotate any exposed credentials
 4. Re-run `/security-check` to verify fix
 5. Review entire codebase for similar issues
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

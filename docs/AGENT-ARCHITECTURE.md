@@ -140,3 +140,5 @@ Security Reviewer（审计安全）
 | 风险 | 低 | 中（并行冲突） |
 
 **建议**：默认用阶段 4 流程。只有当你已经用 vibe-to-ship 完成过 2-3 个产品后，再尝试 subagent 模式。
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

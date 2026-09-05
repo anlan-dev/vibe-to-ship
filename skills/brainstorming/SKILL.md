@@ -76,3 +76,5 @@ Fix any issues inline.
 - **YAGNI ruthlessly** — Remove unnecessary features
 - **Explore alternatives** — Always propose 2-3 approaches
 - **Incremental validation** — Present design, get approval before moving on
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

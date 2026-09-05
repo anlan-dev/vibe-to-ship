@@ -91,3 +91,5 @@ Before marking any work as complete:
 - [ ] No console.log statements in production code
 - [ ] No hardcoded values (use constants or config)
 - [ ] No mutation of input parameters
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

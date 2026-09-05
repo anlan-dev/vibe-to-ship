@@ -94,3 +94,5 @@ Respond to code review feedback constructively and professionally.
 ❌ Fixing symptoms instead of root causes
 ❌ Not adding tests for bug fixes
 ❌ Dismissing feedback without consideration
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

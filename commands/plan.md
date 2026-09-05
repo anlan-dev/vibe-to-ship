@@ -82,3 +82,5 @@ To modify the plan:
 - `modify: [your changes]`
 - `different approach: [alternative]`
 - `skip phase 2 and do phase 3 first`
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

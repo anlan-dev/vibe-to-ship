@@ -166,3 +166,5 @@ Before declaring a product "polished":
 - [ ] Smooth transitions on key interactions
 - [ ] Forms have proper validation and error states
 - [ ] Destructive actions require confirmation
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

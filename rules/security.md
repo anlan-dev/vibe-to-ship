@@ -54,3 +54,5 @@ If a security issue is found in a shipped product:
 3. Fix critical issues before anything else
 4. Rotate any exposed credentials immediately
 5. Review the entire codebase for similar issues
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

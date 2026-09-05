@@ -82,3 +82,5 @@ Before declaring v1 complete:
 - [ ] Error paths are tested
 - [ ] Tests pass in CI (if configured)
 - [ ] Coverage report shows 80%+
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

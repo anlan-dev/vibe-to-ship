@@ -88,3 +88,5 @@ Before deploying:
 - Use clear, action-oriented button labels ("Save habit" not "Submit")
 - Provide context for form fields ("This will be visible on your profile")
 - Confirm destructive actions ("Are you sure? This can't be undone.")
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

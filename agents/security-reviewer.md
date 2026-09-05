@@ -95,3 +95,5 @@ If a CRITICAL vulnerability is found:
 - Security checklist complete
 
 **Remember**: Security is not optional. One vulnerability can cause real financial harm to users. Be thorough, be vigilant, be proactive.
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

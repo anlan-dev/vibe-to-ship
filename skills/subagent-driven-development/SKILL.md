@@ -106,3 +106,5 @@ Implementer: "Done. 8 tests passing."
 ... repeat for all tasks ...
 [Final code reviewer] → Ready to merge
 ```
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

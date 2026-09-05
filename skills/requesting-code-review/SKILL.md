@@ -100,3 +100,5 @@ Brief description of what was reviewed.
 - Edge cases covered
 - Tests are not flaky
 - Coverage meets threshold
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

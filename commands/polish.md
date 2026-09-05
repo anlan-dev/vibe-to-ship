@@ -98,3 +98,5 @@ AI (polish agent):
 
 Action: Fix the 3 marked issues, then re-run /polish.
 ```
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

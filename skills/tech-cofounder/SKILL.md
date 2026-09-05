@@ -64,3 +64,5 @@ description: 将 AI 编码助手转变为你的技术联合创始人 — 结构�
 - **Agents 体系**：[`docs/AGENT-ARCHITECTURE.md`](../../docs/AGENT-ARCHITECTURE.md) — Planner / Reviewer / Polish / Security 调度关系
 - **阻塞点手册**：[`docs/BLOCKING-POINTS.md`](../../docs/BLOCKING-POINTS.md) — 每个阶段卡住时的具体应对
 - **案例**：[`examples/CASES.md`](../../examples/CASES.md) — 用此框架做出的产品
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

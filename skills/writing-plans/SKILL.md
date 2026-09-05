@@ -143,3 +143,5 @@ Design approved: JWT tokens, bcrypt passwords, session cookies.
 - Order doesn't make sense
 - Missing error handling tasks
 - No testing tasks included
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

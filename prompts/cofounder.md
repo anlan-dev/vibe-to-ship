@@ -402,3 +402,5 @@ AI 写出来的代码跑不通
 
 ⏸️ 可行的话说「继续」，我们进入阶段 2 聊视觉方向。
 ```
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

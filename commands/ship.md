@@ -122,3 +122,5 @@ Your Next.js app is best suited for Vercel:
 4. Add PWA support
 5. Add dark mode
 ```
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

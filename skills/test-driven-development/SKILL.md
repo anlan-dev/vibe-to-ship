@@ -127,3 +127,5 @@ test('should reject invalid email format', () => {
 ❌ **Slow tests** — Tests that take too long discourage running them
 ❌ **Flaky tests** — Tests that sometimes pass, sometimes fail
 ❌ **No assertions** — Tests that run but don't verify anything
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

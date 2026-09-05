@@ -113,3 +113,5 @@ After session:
 ❌ **Never checking MCP status** — Assume nothing
 ❌ **Keeping debug tools on permanently** — Waste of context
 ❌ **Ignoring context warnings** — Performance will degrade
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

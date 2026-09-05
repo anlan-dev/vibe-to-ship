@@ -125,3 +125,5 @@ Decision: Tier 3 (Capable) for migration plan
 ❌ **Using cheap models for security** — Risky for critical code
 ❌ **Not upgrading when stuck** — If Tier 1 fails, try Tier 2
 ❌ **Ignoring cost** — Track usage and optimize over time
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

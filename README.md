@@ -1,5 +1,8 @@
 <h1 align="center">Vibe to Ship</h1>
 
+> © 2026 王天娇（anlan-dev）· GPL-3.0 开源 · 使用时保留作者署名与版权声明 / keep attribution
+
+
 <p align="center">
   A structured prompt that turns any AI into your technical co-founder.<br/>
   Not just code generation — a 5-stage workflow from idea to shipped product.
@@ -13,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="License"/>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/>
   <img src="https://img.shields.io/badge/platform-Any%20AI-lightgrey.svg" alt="Any AI"/>
   <img src="https://img.shields.io/badge/stars-%E2%98%85-yellow.svg" alt="Stars"/>
@@ -276,7 +279,7 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guideline
 
 ## License
 
-This project is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
+This project is licensed under the GNU General Public License v3.0 — see [LICENSE](./LICENSE) for details.
 
 ---
 

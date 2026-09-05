@@ -118,3 +118,5 @@ $ npm test
 ## The Mindset
 
 Think like a skeptical QA engineer, not an optimistic developer. Your job is to find problems before users do. If you can't prove it works, it doesn't work yet.
+
+<!-- (c)2026 WangTianJiao anlan-dev | GPL-3.0 | 保留作者署名 attribution required -->

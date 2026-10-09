@@ -1,7 +1,8 @@
 <h1 align="center">Vibe to Ship</h1>
 
 > © 2026 王天娇（anlan-dev）· GPL-3.0 开源 · 使用时保留作者署名与版权声明 / keep attribution
-
+>
+> 部分 `skills/` 改编自 MIT 许可的 [obra/superpowers](https://github.com/obra/superpowers)，第三方来源与许可见 [CREDITS.md](./CREDITS.md)。Some `skills/` are adapted from obra/superpowers (MIT) — see [CREDITS.md](./CREDITS.md).
 
 <p align="center">
   A structured prompt that turns any AI into your technical co-founder.<br/>
@@ -191,7 +192,7 @@ Slash commands for quick access to common workflows:
 
 ### Skills
 
-Modular skills that enhance each stage of the workflow:
+Modular skills that enhance each stage of the workflow. Some are adapted from the MIT-licensed [obra/superpowers](https://github.com/obra/superpowers) — see [CREDITS.md](./CREDITS.md):
 
 | Category | Skill | Purpose |
 |----------|-------|---------|
@@ -280,6 +281,8 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guideline
 ## License
 
 This project is licensed under the GNU General Public License v3.0 — see [LICENSE](./LICENSE) for details.
+
+Some files under `skills/` are adapted from the MIT-licensed [obra/superpowers](https://github.com/obra/superpowers). The original MIT copyright and permission notice is retained in [CREDITS.md](./CREDITS.md).
 
 ---
 

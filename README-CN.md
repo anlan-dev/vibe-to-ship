@@ -1,7 +1,8 @@
 # Vibe to Ship
 
 > © 2026 王天娇（anlan-dev）· GPL-3.0 开源 · 使用时保留作者署名与版权声明 / keep attribution
-
+>
+> 部分 `skills/` 改编自 MIT 许可的 [obra/superpowers](https://github.com/obra/superpowers)，第三方来源与许可见 [CREDITS.md](./CREDITS.md)。
 
 > 一个结构化的 AI 辅助开发流程框架。用规范文档约束 AI，用验收/回滚保护自己。
 > 不是"帮我写代码"，而是"帮我做产品"。
